@@ -15,7 +15,7 @@ from crecimiento_de_regiones import crecimiento
 plt.close('all')
 
 
-im = cv2.imread('C:/Users/PC/OneDrive/Documentos/TT/F_Cruda/278.jpg')
+im = cv2.imread('Brain.png')
 gris_o = cv2.cvtColor(im, cv2.COLOR_BGR2GRAY)
 im2 = im.reshape((-1,3))
 im2 = np.float32(im2)
